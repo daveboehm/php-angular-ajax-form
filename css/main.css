@@ -1,0 +1,133 @@
+::-webkit-input-placeholder {
+  font-style: italic !important;
+  font-weight: lighter;
+}
+::-moz-placeholder {
+  font-style: italic !important;
+  font-weight: lighter;
+}
+/* firefox 19+ */
+:-ms-input-placeholder {
+  font-style: italic !important;
+  font-weight: lighter;
+}
+/* ie */
+input:-moz-placeholder {
+  font-style: italic !important;
+  font-weight: lighter;
+}
+.group {
+  margin-bottom: 20px;
+}
+.errors,
+.error {
+  color: #da4f36;
+}
+#notabot {
+  display: none;
+  pointer-events: none;
+}
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+input,
+textarea {
+  border: 0 none;
+  padding: 0.5rem;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #777777;
+  width: 100%;
+  margin: 0 0 0rem 0px;
+  border: 1px solid #efefef;
+}
+input:focus,
+textarea:focus {
+  outline: 0 none;
+  border: 1px solid #c7c7c7;
+}
+label {
+  width: 100%;
+  font-size: 16px;
+  padding: 0.5rem;
+}
+label .errors {
+  color: #da4f36;
+  float: right;
+}
+textarea {
+  resize: vertical;
+  min-height: 160px;
+}
+.form-button {
+  display: block;
+}
+button {
+  border: 1px solid #5db97a;
+  background: #67cd88;
+  padding: 0.5rem;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: #ffffff;
+  width: 160px;
+}
+button:hover,
+button:focus {
+  background: #52a46d;
+  -webkit-transition: all 150ms ease-out;
+  -moz-transition: all 150ms ease-out;
+  -o-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+  outline: 0 none;
+}
+button:active {
+  background: #52a46d;
+}
+input.ng-invalid,
+textarea.ng-invalid,
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border-color: #da4f36;
+}
+input.ng-valid,
+textarea.ng-valid,
+input.ng-valid.ng-touched,
+textarea.ng-valid.ng-touched {
+  border-color: #67cd88;
+}
+input.ng-pristine,
+textarea.ng-pristine {
+  border-color: #efefef;
+}
+input.ng-dirty,
+textarea.ng-dirty {
+  border-color: #c7c7c7;
+}
+[disabled] {
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+  filter: alpha(opacity=50);
+  background: #efefef;
+  color: #777777;
+  border-color: #c7c7c7;
+}
+[disabled]:hover,
+[disabled]:focus,
+[disabled]:active {
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+  filter: alpha(opacity=50);
+  background: #efefef;
+  color: #777777;
+  border-color: #c7c7c7;
+}
